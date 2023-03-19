@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using System.Xml.Linq;
 using static System.Console;
 
-namespace DruncKard
+namespace Pjanitsa
 {
     public class Cards
     {
