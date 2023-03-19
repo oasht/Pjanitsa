@@ -67,11 +67,11 @@ namespace Pjanitsa
             for (int i = 0; i < 18; i++)
                 player2.Add(cards[i]);
             cards.Clear();
-            WriteLine("\t\tCard 1 player");
+            WriteLine("\t\tFirst player's set");
             for (int i = 0; i < player1.Count; i++)
                 Write(player1[i] + " ");
             WriteLine();
-            WriteLine("\t\tCard 2 player");
+            WriteLine("\t\tSecond player's set");
             for (int i = 0; i < player1.Count; i++)
                 Write(player2[i] + " ");
             WriteLine();
